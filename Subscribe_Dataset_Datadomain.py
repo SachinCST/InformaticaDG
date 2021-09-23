@@ -12,7 +12,7 @@ logger.setLevel(logging.DEBUG)
 requests.packages.urllib3.disable_warnings(
     requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-search_url='https://<HOSTNAME>:<PORT>/access/2/catalog/data/search'
+search_url='https://121<HOSTNAME>:<PORT>/access/2/catalog/data/search'
 username='<USERNAME>'
 password='<PASSWORD>'
 #param_q={'core.classType':'*.Table','core.resourceName':'sales_sachin'}
